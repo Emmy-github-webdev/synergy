@@ -6,7 +6,7 @@ const Role = db.role;
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:3000"
+  origin: "https://synergy-ap.herokuapp.com"
 };
 
 app.use(cors(corsOptions));
